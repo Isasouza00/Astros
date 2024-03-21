@@ -16,7 +16,7 @@
             </div>
 
             <div class="input_user">
-                <input type="text" class="user" placeholder="User" required>
+                <input type="text" id="user" class="user" placeholder="User" required>
                 <i class="bx bx-user"></i> 
             </div>
             <div class="input_pass">
@@ -24,10 +24,10 @@
                 <i class="bi bi-eye" id="btn_pass" onclick="viewPass()"></i>
             </div>
 
-            <script src="pass.js"></script>
+            <script src="main.js"></script>
 
             <div class="input_field">
-                <a href="../entrada/index.html"><input type="submit" class="submit" value="Enter"></a>
+                <input type="submit" class="submit" value="Enter" onclick="login(); return false">
             </div>
 
             <div class="bottom">

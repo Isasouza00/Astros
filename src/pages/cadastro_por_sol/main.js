@@ -10,3 +10,20 @@ function viewPass(){
         btnShowPass.classList.replace('bi-eye-slash','bi-eye')
     }
 }
+
+
+function login(){
+
+    var login = document.getElementById('user').value;
+    var pass = document.getElementById('password').value;
+
+    if(login === "admin" && pass === "admin"){
+        alert('Sucess');
+        location.href = "../entrada/index.html";
+    }else if(login === "" && pass === ""){
+        alert('please fill in the fields');
+    }else{
+        alert('user or password is incorrect')
+    }
+
+}
