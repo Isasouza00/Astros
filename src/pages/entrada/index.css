@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(../../assets/images/fundo_cadastro_por_sol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tit_text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 60vh;
+}

@@ -15,16 +15,19 @@
                 <header> Begin Session</header>
             </div>
 
-            <div class="input_field">
+            <div class="input_user">
                 <input type="text" class="user" placeholder="User" required>
-                <i class="bx bx-user"></i>
+                <i class="bx bx-user"></i> 
             </div>
-            <div class="input_field">
-                <input type="password" class="pass" placeholder="Password" required>
-                <i class="bx bx-lock-alt"></i>
+            <div class="input_pass">
+                <input type="password" id="password" class="pass" placeholder="Password" required>
+                <i class="bi bi-eye" id="btn_pass" onclick="viewPass()"></i>
             </div>
+
+            <script src="pass.js"></script>
+
             <div class="input_field">
-                <input type="submit" class="submit" value="Enter">
+                <a href="../entrada/index.html"><input type="submit" class="submit" value="Enter"></a>
             </div>
 
             <div class="bottom">
