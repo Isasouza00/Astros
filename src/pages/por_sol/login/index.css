@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(../../../assets/images/fundo_cadastro_por_sol.jpg);
+    background-image: url(../../../assets/images/fundi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,7 @@ header{
     margin: 3px 0px;
     border-radius: 25px;
     padding: 0px 8px 0px 28px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(0, 35, 72, 0.45);
 }
 
 .bx bx-user{
@@ -64,7 +64,7 @@ header{
 
 .pass{
     color: #fff;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(0, 35, 72, 0.45);
     height: 40px;
     width: 40vh;
     border: none;
@@ -90,7 +90,7 @@ header{
 }
 
 .submit{
-    color:  #99004d;
+    color:  rgba(3, 49, 98, 0.874);
     font-size: 14px;
     font-weight: bold;
     border: none;

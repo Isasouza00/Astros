@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../../assets/images/fundo_cadastro_por_sol.jpg);
+    background-image: url(../../../assets/images/fundi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ body{
 }
 
 .tit_text{
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
     font-size: 40px;
     padding-top: 60vh;

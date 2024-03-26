@@ -1,0 +1,24 @@
+*{
+    font: x-small;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(185, 253, 253);
+}
+
+.back{
+    width: 350px;
+    height: 150px;
+    background-color: #4d4d4d;
+}
