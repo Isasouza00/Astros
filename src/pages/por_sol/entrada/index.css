@@ -9,11 +9,16 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+
+    text-align: center;
 }
 
 .container{
     display: flex;
     justify-content: center;
+    text-align: center;
+
+    padding-top: 22%;
 }
 
 .box{
@@ -26,5 +31,4 @@ body{
     color: #ffffff;
     font-weight: bold;
     font-size: 40px;
-    padding-top: 60vh;
 }
